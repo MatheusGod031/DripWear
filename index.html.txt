@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DripWear</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>DripWear</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <div class="container">
+            <h2>Bem-vindo à DripWear</h2>
+            <p>Mais do que uma marca, um estilo de vida.</p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Nossa missão é oferecer roupas e calçados de alta qualidade que combinam estilo e exclusividade.</p>
+        </div>
+    </section>
+    <section id="products">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="camiseta.jpg" alt="Camiseta">
+                    <h3>Camiseta</h3>
+                    <p>R$99,90</p>
+                </div>
+                <div class="product">
+                    <img src="tenis.jpg" alt="Tênis">
+                    <h3>Tênis</h3>
+                    <p>R$199,90</p>
+                </div>
+                <!-- Adicione mais produtos conforme necessário -->
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco através das redes sociais:</p>
+            <p>
+                Instagram: <a href="https://instagram.com/dripwear_oficial">@dripwear_oficial</a><br>
+                Twitter: <a href="https://twitter.com/dripwearoficial">@dripwearoficial</a>
+            </p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 DripWear. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
